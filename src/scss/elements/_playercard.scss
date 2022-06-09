@@ -1,0 +1,12 @@
+.big-box-players {
+  margin: $unit*3 auto;
+  width: 70%;
+  margin-top: $unit*4;
+  box-shadow: $box-shadow;
+  border-radius: 10px;
+  padding: 2rem;
+  h1, h2 {
+    color: $primary-color
+  }
+
+}

@@ -1,0 +1,92 @@
+@import './config'; //colores
+@import './utils'; //archivos genéricos que podrían utilizarse en cualquier otro proyecto
+@import '../elements/navbar';
+@import '../elements/footer';
+@import '../elements/btn';
+@import '../elements/playercard';
+@import "../elements/form";
+
+//luego lo llamo con @include
+
+// @mixin centered {
+//   margin: auto;
+//   padding: 1rem;
+//   justify-items: center;
+//   text-align: center;
+// }
+
+// @mixin card {
+//   background-color: $terciary-color;
+//   padding: 50px;
+//   box-shadow: 0 0 10px $secondary-color;
+//   border-radius: 10px;
+// }
+
+@mixin bars {
+  background-color: $font-color-secondary  !important;
+}
+
+.main-content {
+  margin: 6rem 0 0;
+  padding: 0 0 15rem;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: $primary-color;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  min-height: 100vh; ///for the footer
+  position: relative; ///for the footer
+}
+
+a {
+  color: $secondary-color;
+  text-decoration: none;
+}
+
+// h3 {
+//   font-weight: lighter;
+//   font-size: size(3);
+// }
+
+.m-auto {
+  margin: 0 auto;
+}
+
+.main-title {
+  margin: 1rem auto;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 900;
+  color: $primary-color;
+}
+
+.form-input-group {
+  margin-top: 50px;
+}
+
+.login-container {
+  background-color: rgb(237, 255, 249);
+  max-width: 300px;
+  padding: 10px;
+  border: solid #dcdbdb 1px;
+  border-radius: 3%;
+}
+
+.login-button {
+  width: -webkit-fill-available;
+  margin: 5px !important;
+  padding: 3px !important;
+}
+
+.buttonsTable {
+  display: flex;
+  justify-content: space-around;
+  margin: 25px 0;
+}

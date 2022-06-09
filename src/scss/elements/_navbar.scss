@@ -1,0 +1,93 @@
+.animate__animated .animate__fadeIn {
+  --animate-duration: 4s;
+}
+
+.animate__animated .animate__slideInDown {
+  --animate-duration: 3s;
+}
+
+
+.barra {
+  height: 5rem;
+  background-color: transparent !important;
+  top: 0;
+  
+  color: $primary-color !important;
+
+
+      font-size: $unit*3;
+}
+
+
+
+.nav {
+  transition: all 0.1s linear;
+  height: 6rem;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  margin-right: 0;
+  width: 100%;
+    background-size: cover;
+  a {
+      color: $font-color-primary !important;
+        text-shadow: 1px 2px 3px black !important;
+      font-weight: 500;
+      display:inline-block;
+      margin-right: 1rem;
+  
+      &:hover,
+      &:active {
+        color: $terciary-color  !important;
+        text-shadow: $box-shadow !important;
+      }
+    }
+  .show{
+    background-color: $bg-color;
+  }
+}
+
+.scrollNav {
+  transition: all 0.5s ease-in;
+  z-index: 2000;
+ background-color: $bg-color;
+  background-size: cover;
+  width: 100%;
+
+  a {
+      color: $secondary-color !important ;
+      text-shadow: $box-shadow  !important;
+  }
+}
+
+
+
+.nav-logo{
+  padding: $unit;
+  height: $unit*8;
+}
+
+//subrayar links 
+.underline-link {
+  display: inline-block;
+  position: relative;
+}
+
+.underline-link:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: $terciary-color;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.underline-link:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+

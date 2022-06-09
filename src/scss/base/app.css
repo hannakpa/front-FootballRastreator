@@ -1,0 +1,178 @@
+.m-1 {
+  margin: 8px;
+}
+
+.m-2 {
+  margin: 16px;
+}
+
+.m-3 {
+  margin: 24px;
+}
+
+.m-4 {
+  margin: 32px;
+}
+
+.m-5 {
+  margin: 40px;
+}
+
+.m-6 {
+  margin: 48px;
+}
+
+.m-7 {
+  margin: 56px;
+}
+
+.m-8 {
+  margin: 64px;
+}
+
+.m-9 {
+  margin: 72px;
+}
+
+.p-1 {
+  padding: 8px;
+}
+
+.p-2 {
+  padding: 16px;
+}
+
+.p-3 {
+  padding: 24px;
+}
+
+.p-4 {
+  padding: 32px;
+}
+
+.p-5 {
+  padding: 40px;
+}
+
+.p-6 {
+  padding: 48px;
+}
+
+.p-7 {
+  padding: 56px;
+}
+
+.p-8 {
+  padding: 64px;
+}
+
+.p-9 {
+  padding: 72px;
+}
+
+.py-1 {
+  padding: 8px 0;
+}
+
+.py-2 {
+  padding: 16px 0;
+}
+
+.py-3 {
+  padding: 24px 0;
+}
+
+.py-4 {
+  padding: 32px 0;
+}
+
+.py-5 {
+  padding: 40px 0;
+}
+
+.py-6 {
+  padding: 48px 0;
+}
+
+.py-7 {
+  padding: 56px 0;
+}
+
+.py-8 {
+  padding: 64px 0;
+}
+
+.py-9 {
+  padding: 72px 0;
+}
+
+.w-1 {
+  width: 25%;
+}
+
+.w-2 {
+  width: 50%;
+}
+
+.w-3 {
+  width: 75%;
+}
+
+.top-nav {
+  background-color: rgba(37, 37, 37, 0.834) !important;
+}
+
+.top-nav a {
+  color: #eef362 !important;
+}
+
+border
+.top-nav a:hover, .top-nav a:active {
+  color: #04BF45 !important;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #049DBF;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a {
+  color: #04BF45;
+  text-decoration: none;
+}
+
+.big-box-grid {
+  height: 100vh;
+}
+
+h2 {
+  font-weight: bolder;
+  font-size: 48px;
+}
+
+h3 {
+  font-weight: lighter;
+  font-size: 24px;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.m-auto {
+  margin: 0 auto;
+}
+/*# sourceMappingURL=app.css.map */

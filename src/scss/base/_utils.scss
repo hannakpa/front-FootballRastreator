@@ -1,0 +1,59 @@
+//crear funciones /// lleva un return
+
+//tamaño. valor x 8px (asignado en config)
+@function size($value) {
+  @return $value*$unit;
+}
+
+
+@mixin reset-pm {
+  padding: 0 !important;
+    margin: 0 !important;
+}
+
+@mixin background-opacity($color, $opacity) {
+  background: $color;
+  background: rgba($color, $opacity);
+}
+
+
+//crear diferentes estilos en un ciclo
+@for $i from 1 to $limit {
+
+  //m-1, m-2, como en bootstrap. 
+  .m-#{$i} {
+    margin: $i * $unit;
+  }
+}
+
+@for $i from 1 to $limit {
+  .p-#{$i} {
+    padding: $i * $unit;
+  }
+}
+
+@for $i from 1 to $limit {
+
+  //padding top y bottom
+  .py-#{$i} {
+    padding: $i * $unit 0;
+  }
+}
+
+@for $i from 1 to $limit {
+
+  //padding left&right
+  .px-#{$i} {
+    padding: $i * $unit 0;
+  }
+}
+
+//para tener difereentes anchos
+@for $i from 1 to 4 {
+  .w-#{$i} {
+    width: $i * 25%;
+    //width: 25%;
+    //width: 50%;
+    //width: 75%;
+  }
+}

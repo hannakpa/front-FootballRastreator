@@ -1,0 +1,29 @@
+.titleAnalyze {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.centerInputGroup {
+    justify-content: center;
+    height: 400px;
+    align-content: center;
+}
+
+.analyzeContainer {
+    background-color: rgb(237, 255, 249);
+    box-shadow: $box-shadow;
+    padding: 10px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.analyzeSubmitButton {
+    margin: 10px 0;
+    background-color: rgb(70, 70, 70) !important;
+    border: 0px solid rgb(70, 70, 70) !important;
+}
+
+.analyzeSubmitButton:hover {
+    color: $terciary-color  !important;
+}

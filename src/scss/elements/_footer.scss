@@ -1,0 +1,59 @@
+footer {
+  background-color: $bg-color;
+  min-height: $unit * 25; //footer's height
+  width: 100%;
+  position: absolute; ///for the footer
+  bottom: 0; ///for the footer
+  margin: auto 0; ///for the footer
+
+  justify-content: center;
+  padding: $unit * 3 $unit * 3 0;
+  text-align: center;
+  color: $font-color-secondary;
+
+  //iconos
+  a {
+    font-size: $unit * 3.5;
+    color: $font-color-secondary;
+    margin: $unit * 3;
+    &:hover {
+      color: $terciary-color;
+    }
+  }
+
+  .bottom-row-footer {
+    margin: $unit * 7 auto 0;
+    font-size: $unit * 1.7;
+    width: 70%;
+    text-align: center;
+    bottom: $unit;
+    p:hover {
+      cursor: pointer;
+      color: $terciary-color;
+    }
+  }
+}
+
+// all the logos adjust in the same row.
+.logos-box {
+  margin-left: $unit * 4;
+  margin-top: $unit * 2;
+  text-align: left;
+
+  //display:flex;
+  //flex-wrap:nowrap;
+  img {
+    padding: $unit;
+    height: $unit * 7;
+    max-width: auto;
+    border-radius: $unit * 1.5;
+    cursor: pointer;
+  }
+}
+
+.title-sponsors {
+  margin-bottom: 0;
+  margin-left: $unit * 5; //in order to align with the logos (4 margin left + img padding*1)
+  text-align: left;
+  font-size: $unit * 2;
+}
